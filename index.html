@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> <img class="logo" src="tag.svg" alt="">
+                Aaditya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <img class="profile" src="logo.jpeg" alt="">
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="bubble"></div>
+        <section class="first-section">
+            <div class="left-section">
+                <span class="name">Aaditya Aggarwal</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://github.com/Aaditya2302"><button class="btn">Visit GITHUB</button></a>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="second-section">
+            <span class="gray">What I have done so far</span>
+            <h1>Some of my projects & work</h1>
+            <div class="box">
+                <div class="vertical">
+                    <a href=""><img src="html.png" alt="" class="vertical-img"></a>
+                    <div class="vertical-text">
+                        Have a strong grip in HTML
+                    </div>
+                </div>
+                <div class="vertical">
+                    <a href=""><img src="css.png" alt="" class="vertical-img"></a>
+                    <div class="vertical-text">
+                        Have a strong grip in CSS
+                    </div>
+                </div>
+                <div class="vertical">
+                    <a href=""> <img src="js.png" alt="" class="vertical-img"></a>
+                    <div class="vertical-text-js">
+                        Good experience in JS
+                    </div>
+                </div>
+                <div class="vertical">
+                    <a href=""><img src="music.png" alt="" class="vertical-img"></a>
+                    <div class="vertical-text">
+                        Creates a FOLK SONGS website as a project with a team
+                    </div>
+                </div>
+                <div class="vertical">
+                    <a href="https://aaditya2302.github.io/Food-Kit-App/"><img src="food.png" alt="" class="vertical-img1"></a>
+                    <div class="vertical-text">
+                        Creates an interface for FOOD-KIT app
+                    </div>
+                </div>
+                <div class="vertical">
+                    <a href="https://aaditya2302.github.io/Just-click/"> <img src="hack.png" alt=""
+                            class="vertical-img2"></a>
+                    <div class="vertical-text">
+                        Do little tasks for better understanding is JS
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div>
+        <img class="photo" src="photo.png" alt="">
+    </div>
+    <div class="video">
+        <video controls src="folkify.mp4" width="700"></video>
+    </div>
+    <div class="disclaimer">Click on above logos to redirect on my projects</div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Front-End Developer'],
+            typeSpeed: 80,
+        });
+    </script>
+    <script>
+        var typed = new Typed('#bubble', {
+            strings: ['Hey', 'Its me'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
